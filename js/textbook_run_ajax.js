@@ -68,8 +68,6 @@ $(this).on('change', '#select_example', function(){
 			    var dataString = 'id='+ id + '&type=' + type;
 				    
 if(id == 0){
-$('#entire_book').hide();
-$('#entire_chapter').hide();
 $('#entire_example').hide();       
 $('#feedback_example').hide();
 $('.submit_form_feedback_example').hide();
