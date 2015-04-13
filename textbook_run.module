@@ -109,7 +109,7 @@ if ($url_book_id)
       $book_titles_q = db_query("SELECT * FROM {textbook_companion_chapter} WHERE preference_id = %d ORDER BY number ASC", $id);
   while ($book_titles_data = db_fetch_object($book_titles_q))
   {
-   $data .=  "<option value='".$book_titles_data->number."'>".$book_titles_data->number . ' (' . $book_titles_data->name . ')'."</option>";
+   $data .=  "<option value='".$book_titles_data->id."'>".$book_titles_data->number . ' (' . $book_titles_data->name . ')'."</option>";
   } 
        $data .=  "</select>"; 
       
