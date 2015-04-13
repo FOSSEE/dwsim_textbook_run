@@ -122,7 +122,7 @@ if ($url_book_id)
       $data .= "<br>";      
       $data .= "<br>";      
       $data .=  "<span><b>Example Number (caption): </></span><br><br>";
-      $data .= "<select id='select_example'><option value='0'>Please Select a example</option>";
+      $data .= "<select id='select_example'><option value='0'>Please Select an example</option>";
       $example_titles_q = db_query("SELECT * FROM {textbook_companion_example} WHERE chapter_id = %d", $id);
   while ($example_titles_data = db_fetch_object($example_titles_q))
   {
