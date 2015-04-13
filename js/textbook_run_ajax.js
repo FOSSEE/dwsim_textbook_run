@@ -55,6 +55,7 @@ $.ajax({
       success: function(result){  
        $('#entire_chapter').show();     
        $('#entire_chapter').html(result);
+       $('#entire_example').hide();  
        $('#feedback_example').hide();
        $('.submit_form_feedback_example').hide();              
       }
