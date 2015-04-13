@@ -1,0 +1,9 @@
+name = textbook run
+description = Module to run book codes
+core = 6.x
+
+
+stylesheets[all][]   = css/tbc_comments.css
+scripts[] = js/textbook_run_ajax.js
+scripts[] = js/jquery-1.4.1.min.js
+scripts[] = js/jquery,lightbox_me.js
